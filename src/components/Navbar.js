@@ -6,14 +6,7 @@ import PropTypes from "prop-types";
 
 export default function Navbar(props) {
 
-  const myTheme = {
-    height: '25px',
-    width: '25px',
-    backgroundColor: 'green',
-    borderRadius: '50%',
-    display: 'Block',
-    border: 'none'
-  };
+  // 
   return (
     <>
       <nav
@@ -58,9 +51,9 @@ export default function Navbar(props) {
                 Search
               </button>
             </form> */}
-            <div>
+            {/* <div>
               <button style={myTheme}></button>
-            </div>
+            </div> */}
             <div
               className={`form-check form-switch text-${
                 props.mode === "light" ? "dark" : "light"
