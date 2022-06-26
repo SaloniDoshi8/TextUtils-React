@@ -51,8 +51,14 @@ export default function Navbar(props) {
                 Search
               </button>
             </form> */}
-            {/* <div>
-              <button style={myTheme}></button>
+            {/* <div className="d-flex">
+              <div className="bg-primary rounded mx-2" style={{height: '30px', width: '30px', cursor: 'pointer'}} onClick={props.modeToggle('primary')}></div>
+              <div className="bg-danger rounded mx-2" style={{height: '30px', width: '30px', cursor: 'pointer'}} onClick={props.modeToggle('danger')}></div>
+              <div className="bg-success rounded mx-2" style={{height: '30px', width: '30px', cursor: 'pointer'}} onClick={props.modeToggle('success')}></div>
+              <div className="bg-warning rounded mx-2" style={{height: '30px', width: '30px', cursor: 'pointer'}} onClick={props.modeToggle('warning')}></div>
+              <div className="bg-light rounded mx-2" style={{height: '30px', width: '30px', cursor: 'pointer'}} onClick={props.modeToggle('light')}></div>
+              <div className="bg-dark rounded mx-2" style={{height: '30px', width: '30px', cursor: 'pointer'}} onClick={props.modeToggle('dark')}></div>
+
             </div> */}
             <div
               className={`form-check form-switch text-${
